@@ -15,6 +15,7 @@
 
 
 body {
+  position: relative;
   background-image: url(../img/background.jpg);
 }
 
@@ -29,6 +30,7 @@ body {
 }
 
 .nav h1 {
+  margin-left: 20px;
   margin-top: 20px;
   font-family: bd;
   font-size: 30px;
@@ -36,8 +38,9 @@ body {
   letter-spacing: 3px;
 }
 
-.logo {
- position: absolute;
+.nav img {
+  float: left;
+  width: 75px;
 }
 
 .nav ul {
@@ -60,6 +63,7 @@ body {
 .product-shot {
   /*position: absolute;*/
   float: left;
+  margin-left: 50px;
 }
 
 .product-info h3 {
@@ -75,19 +79,32 @@ body {
 
 .product-info {
   float: right;
-  width: 60%;
+  width: 50%;
+  margin-right: 50px
 }
 label {
   font-family: bd;
   letter-spacing: 1px;
+
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 2px;
+  margin-left: 20px;
 }
 
 button {
   font-family: nutty;
-  background: white;
+  background: #a98c5d;
+  border: 1px solid #a98c5d;
   border-radius: 6px;
-  border-color: white;
-  padding: 5px;
+  padding: 7px 15px;
+  color: white;
+  margin-left: 20px;
+  font-size: 12px;
 }
 /*.clearfix:after {
   content: "";
