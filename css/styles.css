@@ -1,3 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(../img/background.jpg);
 }
+
+.wrap {
+  position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nav h1 {
+  float: left;
+}
+
+.nav ul {
+  float: right;
+}
+
+.nav li {
+  display: inline;
+  float: right;
+  list-style: none;
+}
+
+.product-shot {
+  float: left;
+}
+
+.product-info {
+  float: right;
+  width: 60%;
+}
+
+/*.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
