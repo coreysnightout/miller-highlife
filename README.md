@@ -1,3 +1,5 @@
+![screen shot 2018-01-22 at 10 05 41 pm](https://user-images.githubusercontent.com/25654531/35260453-89568ba4-ffc0-11e7-9468-b03cf4ec5911.png)
+
 # _{Miller Highlife Product Page}_
 
 #### _{Create a webpage selling a product with forms, galleries and only using CSS and HTML}, {5/26/2017}_
